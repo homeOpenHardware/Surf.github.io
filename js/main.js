@@ -152,3 +152,13 @@ $('.menu-btn').on('click', function(){
   $('.menu').toggleClass('active');
 });
 
+ 
+$('.surfboard-box__circle').on('click', function(){
+  $(this).toggleClass('active')
+});
+
+// menu
+$('.menu-btn').on('click', function(){
+  $('.menu').toggleClass('active');
+});
+
